@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Levi';
+    src: url('font/levi/Windows Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Levi;
+    text-align: center;
+}
+
+/* Mobile Styles */
+
+@media (max-width: 48rem) {
+    header {
+        width: 90%;
+        padding: 0.5em;
+    }
+    .update {
+        width: 90%;
+        margin: 0.3125rem auto;
+        padding: 0.625rem;
+    }
+    body {
+        font-size: 1rem;
+    }
+    .post {
+        font-size: 0.875rem;
+        margin: 0.3125rem;
+        padding: 0.5rem;
+    }
+}
+
+/*Home*/
+
+header {
+    width: 31.25rem;
+    margin: auto;
+    padding: 0.4375rem;
+    border: #7CFC00 0.3125rem double;
+    font-size: 1.0625rem;
+    text-align: center;
+    position: relative;
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header a:visited {
+    color: whitesmoke;
+}
+
+header a:hover, a:focus {
+    color: rgb(37, 47, 207);
+}
+
+header img {
+    width: 9.375rem;
+    height: 9.375rem;
+    border: #3d6f0b 0.125rem solid;
+    border-radius: 50%;
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.dollar-sign-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dollar-sign-container:first-child {
+    left: 5.5rem; 
+}
+
+.dollar-sign-container:last-child {
+    right: 5.5rem; 
+}
+
+.dollar-sign {
+    font-size: 2.5rem;
+}
+
+
+nav {
+    text-align: center;
+}
+
+nav table {
+    margin: 0 auto;
+}
+
+nav td {
+    padding: 0.625rem;
+    word-spacing: 0.3125rem;
+}
+
+table a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+table a:visited {
+    color: whitesmoke;
+}
+
+table a:hover, a:focus {
+    color: rgb(37, 47, 207);
+}
+
+.update {
+    width: 37.5rem;
+    min-height: 6.25rem;
+    border: #3d6f0b 0.125rem solid;
+    margin: 0.625rem auto;
+    padding: 0.4375rem;
+}
+
+.space {
+    margin-bottom: 1em;
+}
+
+
+/* .content {
+    width: 28.125rem;
+    min-height: 30.625rem;
+    margin: auto;
+    padding: 0.625rem;
+    font-size: 1.0625rem;
+}
+*/
+
+/* Rambles */
+
+.rambles {
+    width: 30.625rem;
+    min-height: 30.625rem;
+    margin: auto;
+    margin-bottom: 1em;
+    padding: 0.625rem;
+    font-size: 1.0625rem;
+}
+
+.post {
+    margin: 0.4375rem;
+    padding: 0.625rem;
+    border: white 0.125rem solid;
+}
+
+.space ul, li {
+    margin-top: 1em;
+}
+
+/* Music */
+#lil {
+    font-size: 0.9375rem;
+}
+
+main ul {
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+}
+
+main li {
+    font-size: 1.0625rem;
+}
